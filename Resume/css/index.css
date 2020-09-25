@@ -1,0 +1,341 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.beij {
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+/* 头像 */
+.tou {
+	width: 250px;
+	height: 300px;
+	background-color: red;
+}
+
+.toux {
+	height: 385px;
+}
+
+.tou {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rosybrown;
+	margin: 0 auto;
+	position: relative;
+	top: 120px;
+	background: url("../img/tou.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.tou_1 {
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+	top: 125px;
+	text-align: center;
+}
+
+.tou:hover {
+	transform: scale(1.1);
+}
+
+.tou {
+	transition: all 1.2s;
+	cursor: pointer;
+}
+
+.tou_1 a {
+	font-size: 20px;
+	color: #282828;
+	font-size: 30px;
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+/* 导航 */
+.navbar-default {
+	background-color: #d7e3e8;
+	border-color: #d7e3e8;
+}
+
+.navbar-default .navbar-brand:hover {
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #797373;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #797373;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #777;
+	font-size: 18px;
+}
+
+/* 基本资料 */
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.data_1 {
+	height: 28px;
+	text-align: center;
+}
+
+.data_1 a {
+	font-size: 25px;
+	color: #181717;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.data_2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+
+.data_3:hover {
+	transform: scale(1.1);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
+	border-radius: 15%;
+}
+
+.data_3 {
+	transition: all 1.2s;
+	cursor: pointer;
+}
+
+.data_3 a {
+	text-decoration: noen;
+}
+
+.data_img {
+	width: 80px;
+	height: 80px;
+	background-color: #e2e3e5;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+
+.data_img img {
+	position: relative;
+	right: 10px;
+	bottom: 6px;
+}
+
+.data_text {
+	text-align: center;
+}
+
+.data_text .ge {
+	font-size: 20px;
+	color: #d1c382;
+	text-decoration: none;
+}
+
+.data_text .ren {
+	color: #181717;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* 项目经验 */
+.xiang {
+	height: 420px;
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 70px;
+}
+
+.xiang_text {
+	width: 94%;
+	height: 50px;
+	background-color: floralwhite;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.xiang_text .text {
+	font-size: 15px;
+	color: #979592;
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+.xiang_text .text_1 {
+	font-size: 15px;
+	color: #979592;
+	text-decoration: none;
+	position: relative;
+	top: 20px;
+}
+
+.xiang_text1 {
+	width: 70%;
+	/*    height: 135px; */
+	height: 100%;
+	background-color: aliceblue;
+	margin: 0 auto;
+}
+
+.xiang_1 {
+	width: 94%;
+	margin-top: 15px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.mu_1 {
+	width: 94%;
+	/* height: 190px; */
+	margin-top: 30px
+}
+
+.mu_1 a {
+	font-size: 20px;
+	color: #696668;
+	text-decoration: none;
+}
+
+.mu_1 .miao {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* 专业技能 */
+.jineng {
+	height: 90%;
+}
+
+.jineng_1 {
+	/* height: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row; */
+}
+
+.data_a {
+	height: 28px;
+	text-align: center;
+	position: relative;
+	bottom: 17px;
+}
+
+.data_a a {
+	font-size: 25px;
+	color: #181717;
+	position: relative;
+	text-decoration: none;
+	position: relative;
+	top: 40px;
+}
+
+.ji_img {
+	/* width: 50%; */
+	text-align: center;
+
+}
+
+.ji_img img {
+	width: 60%;
+	height: 100%;
+	position: relative;
+	top: 60px;
+}
+
+.ji_imga {
+	/* width: 50%; */
+}
+
+.ji_imga a {
+	font-size: 20px;
+	color: #696565;
+	text-decoration: none;
+	position: relative;
+	top: 80px;
+}
+
+/* 项目展示 */
+.zhan_1:hover {
+	transform: scale(1.1);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
+	border-radius: 15%;
+}
+
+.zhanshi .zhan_1 {
+	transition: all 1.2s;
+	cursor: pointer;
+}
+
+.title_div {
+	width: 100%;
+	height: 50px;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.title_div a {
+	font-size: 25px;
+	color: #181717;
+	text-decoration: none;
+}
+
+.demo {
+	width: 100%;
+	margin: 100px 0;
+}
+
+.demo .demo_row {
+	transition: all 1.2s;
+	cursor: pointer;
+}
+
+.demo_row {
+	overflow: hidden;
+	text-align: center;
+	/* background-color: #1B6D85; */
+}
+
+.demo_img {
+	width: 80%;
+}
+
+.demo_1 {
+	background-color: #fff0;
+}
+
+.demo_row:hover {
+	/* 鼠标放上去会放大 */
+	transform: scale(1.1);
+	/* transition: all .2s; */
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
